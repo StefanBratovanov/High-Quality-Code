@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeDocumentation</name>
+    </assembly>
+    <members>
+        <member name="T:CodeDocumentation.StringExtensions">
+            <summary>
+            Extension methods for String class.
+            </summary>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            Uses MD5 hashing algorithm on input string.
+            </summary>
+            <returns>
+            Hashed string
+            </returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Checks if the input string is predefined Boolean value.
+            </summary>
+            <param name="input">string to be checked.</param>
+            <returns>
+            True or False
+            </returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToShort(System.String)">
+            <summary>
+            Converts the string representation of a number to its 16-bit integer equivalent.
+            </summary>
+            <param name="input">string to be converted</param>
+            <returns>16-bit integer equivalent of the string or 0</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToInteger(System.String)">
+            <summary>
+            Converts the string representation of a number to its 32-bit integer equivalent.
+            </summary>
+            <param name="input">string to be converted</param>
+            <returns>32-bit integer equivalent of the string or 0</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToLong(System.String)">
+            <summary>
+            Converts the string representation of a number to its 64-bit integer equivalent.
+            </summary>
+            <param name="input">string to be converted</param>
+            <returns>64-bit integer equivalent of the string or 0</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            Converts the string representation of a dateTime to its DateTime equivalent if possible.
+            </summary>
+            <param name="input">string to be converted</param>
+            <returns>DateTime version of the string or MinValue if the conversion fails.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            Capitalize First Letter of given string.
+            </summary>
+            <param name="input">String to be converted.</param>
+            <returns>Returns the string with capital first letter or same string if empty.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Finds string between starting string and end string with given starting point.
+            </summary>
+            <param name="input">String text</param>
+            <param name="startString">Start string</param>
+            <param name="endString">End string</param>
+            <param name="startFrom">Start point</param>
+            <returns>A substring between startString and endString. Empty string if none found.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            Converts Cyrillic to Latin letters.
+            </summary>
+            <param name="input">Cyrillic letters string</param>
+            <returns>String of Latin letters.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            Converts Latin to Cyrillic letters.
+            </summary>
+            <param name="input">Latin letters string</param>
+            <returns>String of Cyrillic letters.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Removes all characters other than letters, numbers, "_", and ".".
+            </summary>
+            <param name="input">String to be validated.</param>
+            <returns>Validated string.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Replaces sapces with dashes; Removes all characters other than Latin letters, "_", "." and "-".
+            </summary>
+            <param name="input">String to be validated.</param>
+            <returns>string with contains valid filename.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Gets the first characters of a string.
+            </summary>
+            <param name="input">The target string.</param>
+            <param name="charsCount">the count of characters to be retrieved.</param>
+            <returns>First charsCount characters.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Gets the file extension of a file.
+            </summary>
+            <param name="fileName">Full file name.</param>
+            <returns>File extension of a file.</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToContentType(System.String)">
+            <summary>
+            Gets the content type by file extension.
+            </summary>
+            <param name="fileExtension">File extension to be checked.</param>
+            <returns>Content type or "application/octet-stream"</returns>
+        </member>
+        <member name="M:CodeDocumentation.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Convert all characters of a string in bytes.
+            </summary>
+            <param name="input">The target string.</param>
+            <returns>Array of bytes</returns>
+        </member>
+    </members>
+</doc>

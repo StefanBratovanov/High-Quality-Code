@@ -1,0 +1,8 @@
+1.rename solution
+2.rename project
+3.close solution
+4.rename dir project folder same as 2.
+5.open .sln file in notepad
+6.Projet(... "same as 2\...csproj")
+7.right click on project -> prop
+8.assembly name adn namespace -> same as 2
